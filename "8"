@@ -1,0 +1,15 @@
+rain_type = input("enter the type of rain heavy or slow : ")
+unb = input("yes or no : ")
+wd = input("yes or no : ")
+if wd=="yes":
+    if rain_type=="heavy":
+        if umb=="yes":
+            print("safe")
+        else:
+            print("not safe")
+    elif rain_type=="slow":
+            hood = input("yes or no : ")
+            if hood=="yes":
+                print("safe")
+else:
+    print("stay back and enjoy the rain")
